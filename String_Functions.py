@@ -1,0 +1,20 @@
+s1="hello"
+s2="world"
+s3="hello\tWorld"
+print("s1=",s1)
+print("s2=",s2)
+print("s3=",s3)
+print()
+print("---String Functions---")
+print()
+print("Capitalize s1:",s1.capitalize())
+print("Casefold s3:",s3.casefold())
+print("Count of letter 'l' in s1:",s1.count("l"))
+print("Encode s1:",s1.encode())
+print("Checking whether s1 ends with letter 'o':",s1.endswith("o"))
+print("Checking whther s1 ends with letter 'i':",s1.endswith("i"))
+print("Expandtabs s3:",s3.expandtabs(50))
+print("Finding 'rld' in s3:",s3.find("rld"))
+print("Format: Say {}".format("Hey"))
+print("Format_map:Say {greeting}".format_map({"greeting":"Good Morning"}))
+print("Index of letter 'e' in s1:",s1.index("e"))
