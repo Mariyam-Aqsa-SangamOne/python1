@@ -4,7 +4,7 @@ conn = mysql.connector.connect(
     host="139.162.60.69",
     port=3306,
     user="user1",
-    password="Navatar2024!",
+    password="",
     database="expense_tracker"
 )
 
